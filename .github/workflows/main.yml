@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
 
-  jobs:
-    MyFirstJob:
-      runs-on: ubuntu-latest
-      steps:
-        - run: echo "Hello World"
+jobs:
+  MyFirstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World"
